@@ -37,8 +37,8 @@ class _MyMainPageState extends State<MyMainPage> {
 
   Future<FirebaseUser> _loginWithTwitter() async {
     var twitterLogin = new TwitterLogin(
-      consumerKey: 'Y2My4EBwXnRLrlqATYeo9fYKX',
-      consumerSecret: 'xYXUhQ1KoHEIUMI1ZjH5RnnvPjFAJZLmQc7ZXecPiXoFQDvS3i',
+      consumerKey: 'Y2MyConsumerKeyYKX',
+      consumerSecret: 'xYXUMyConsumerSecretKeyjFAJZMyConsumerSecretKeyS3i',
     );
 
     final TwitterLoginResult result = await twitterLogin.authorize();
